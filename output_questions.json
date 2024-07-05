@@ -1,152 +1,155 @@
-[
-    {
-        "question": {
-            "questionNumber": "1",
-            "question": "What is the primary goal of cluster analysis?"
+{
+    "summary": "The lecture covers various aspects of cluster analysis, including its definition, applications, and different clustering methods such as partitioning, hierarchical, density-based, and grid-based methods. It also discusses the requirements and considerations for effective cluster analysis and evaluates the K-means and K-medoids algorithms.",
+    "questions": [
+        {
+            "question": {
+                "questionNumber": "1",
+                "question": "What is cluster analysis also known as?"
+            },
+            "answers": {
+                "A": "- A. Supervised learning",
+                "B": "- B. Unsupervised learning",
+                "C": "- C. Semi-supervised learning",
+                "D": "- D. Reinforcement learning"
+            },
+            "correct_answer": "B",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "3"
         },
-        "answers": {
-            "A": "- A) To classify data into predefined categories",
-            "B": "- B) To find groups of objects that are similar to one another and different from other groups",
-            "C": "- C) To predict future data trends",
-            "D": "- D) To clean and preprocess data"
+        {
+            "question": {
+                "questionNumber": "2",
+                "question": "Which of the following is NOT an application of clustering?"
+            },
+            "answers": {
+                "A": "- A. Image recognition",
+                "B": "- B. Web page grouping",
+                "C": "- C. Protein clustering",
+                "D": "- D. Supervised classification"
+            },
+            "correct_answer": "D",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "4"
         },
-        "correct_answer": "B",
-        "clo": "Understanding the concept of cluster analysis",
-        "difficulty": "3"
-    },
-    {
-        "question": {
-            "questionNumber": "2",
-            "question": "Which of the following is not a basic clustering method?"
+        {
+            "question": {
+                "questionNumber": "3",
+                "question": "What is the main goal of cluster analysis?"
+            },
+            "answers": {
+                "A": "- A. To maximize intra-cluster distances",
+                "B": "- B. To minimize inter-cluster distances",
+                "C": "- C. To maximize inter-cluster distances and minimize intra-cluster distances",
+                "D": "- D. To minimize both inter-cluster and intra-cluster distances"
+            },
+            "correct_answer": "C",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "5"
         },
-        "answers": {
-            "A": "- A) Partitioning Methods",
-            "B": "- B) Hierarchical Methods",
-            "C": "- C) Density-Based Methods",
-            "D": "- D) Regression Methods"
+        {
+            "question": {
+                "questionNumber": "4",
+                "question": "Which method is known for handling outliers well?"
+            },
+            "answers": {
+                "A": "- A. K-means",
+                "B": "- B. K-medoids",
+                "C": "- C. Hierarchical clustering",
+                "D": "- D. Density-based clustering"
+            },
+            "correct_answer": "B",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "6"
         },
-        "correct_answer": "D",
-        "clo": "Understanding the concept of cluster analysis",
-        "difficulty": "2"
-    },
-    {
-        "question": {
-            "questionNumber": "3",
-            "question": "What is the primary difference between supervised classification and cluster analysis?"
+        {
+            "question": {
+                "questionNumber": "5",
+                "question": "Which of the following is a requirement for cluster analysis?"
+            },
+            "answers": {
+                "A": "- A. Scalability",
+                "B": "- B. Ability to deal with noisy data",
+                "C": "- C. Discovery of clusters with arbitrary shape",
+                "D": "- D. All of the above"
+            },
+            "correct_answer": "D",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "4"
         },
-        "answers": {
-            "A": "- A) Supervised classification uses labeled data, while cluster analysis does not",
-            "B": "- B) Cluster analysis uses labeled data, while supervised classification does not",
-            "C": "- C) Both use labeled data",
-            "D": "- D) Neither use labeled data"
+        {
+            "question": {
+                "questionNumber": "6",
+                "question": "What is the most common measure for evaluating K-means clusters?"
+            },
+            "answers": {
+                "A": "- A. Mean Squared Error (MSE)",
+                "B": "- B. Sum of Squared Error (SSE)",
+                "C": "- C. Root Mean Squared Error (RMSE)",
+                "D": "- D. Mean Absolute Error (MAE)"
+            },
+            "correct_answer": "B",
+            "clo": "Evaluate different clustering methods",
+            "difficulty": "5"
         },
-        "correct_answer": "A",
-        "clo": "Understanding the concept of cluster analysis",
-        "difficulty": "4"
-    },
-    {
-        "question": {
-            "questionNumber": "4",
-            "question": "Which of the following is a requirement for cluster analysis?"
+        {
+            "question": {
+                "questionNumber": "7",
+                "question": "Which of the following is a basic clustering method?"
+            },
+            "answers": {
+                "A": "- A. Partitioning Methods",
+                "B": "- B. Linear Regression",
+                "C": "- C. Decision Trees",
+                "D": "- D. Neural Networks"
+            },
+            "correct_answer": "A",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "3"
         },
-        "answers": {
-            "A": "- A) Ability to deal with noisy data",
-            "B": "- B) Ability to predict future trends",
-            "C": "- C) Ability to perform linear regression",
-            "D": "- D) Ability to classify data into predefined categories"
+        {
+            "question": {
+                "questionNumber": "8",
+                "question": "What is the main difference between K-means and K-medoids?"
+            },
+            "answers": {
+                "A": "- A. K-means uses centroids, K-medoids uses medoids",
+                "B": "- B. K-means is hierarchical, K-medoids is partitioning",
+                "C": "- C. K-means is density-based, K-medoids is grid-based",
+                "D": "- D. K-means uses actual data points, K-medoids does not"
+            },
+            "correct_answer": "A",
+            "clo": "Evaluate different clustering methods",
+            "difficulty": "4"
         },
-        "correct_answer": "A",
-        "clo": "Understanding the requirements for cluster analysis",
-        "difficulty": "3"
-    },
-    {
-        "question": {
-            "questionNumber": "5",
-            "question": "Which clustering method involves a set of nested clusters organized as a hierarchical tree?"
+        {
+            "question": {
+                "questionNumber": "9",
+                "question": "Which clustering method organizes clusters as a hierarchical tree?"
+            },
+            "answers": {
+                "A": "- A. Partitioning Methods",
+                "B": "- B. Hierarchical Methods",
+                "C": "- C. Density-Based Methods",
+                "D": "- D. Grid-Based Methods"
+            },
+            "correct_answer": "B",
+            "clo": "Understand the basic concepts of data mining",
+            "difficulty": "3"
         },
-        "answers": {
-            "A": "- A) Partitioning Methods",
-            "B": "- B) Hierarchical Methods",
-            "C": "- C) Density-Based Methods",
-            "D": "- D) Grid-Based Methods"
-        },
-        "correct_answer": "B",
-        "clo": "Understanding basic clustering methods",
-        "difficulty": "3"
-    },
-    {
-        "question": {
-            "questionNumber": "6",
-            "question": "What is the main advantage of using k-medoids over k-means?"
-        },
-        "answers": {
-            "A": "- A) K-medoids is faster",
-            "B": "- B) K-medoids handles outliers well",
-            "C": "- C) K-medoids requires fewer iterations",
-            "D": "- D) K-medoids does not require specifying the number of clusters"
-        },
-        "correct_answer": "B",
-        "clo": "Understanding basic clustering methods",
-        "difficulty": "4"
-    },
-    {
-        "question": {
-            "questionNumber": "7",
-            "question": "Which of the following is a density-based clustering method?"
-        },
-        "answers": {
-            "A": "- A) K-means",
-            "B": "- B) K-medoids",
-            "C": "- C) DBSCAN",
-            "D": "- D) PAM"
-        },
-        "correct_answer": "C",
-        "clo": "Understanding basic clustering methods",
-        "difficulty": "5"
-    },
-    {
-        "question": {
-            "questionNumber": "8",
-            "question": "Which of the following is not a consideration for cluster analysis?"
-        },
-        "answers": {
-            "A": "- A) Partitioning criteria",
-            "B": "- B) Separation of clusters",
-            "C": "- C) Similarity measure",
-            "D": "- D) Data normalization"
-        },
-        "correct_answer": "D",
-        "clo": "Understanding the requirements for cluster analysis",
-        "difficulty": "4"
-    },
-    {
-        "question": {
-            "questionNumber": "9",
-            "question": "What is the most common measure used to evaluate k-means clusters?"
-        },
-        "answers": {
-            "A": "- A) Mean Squared Error (MSE)",
-            "B": "- B) Sum of Squared Error (SSE)",
-            "C": "- C) Root Mean Squared Error (RMSE)",
-            "D": "- D) Mean Absolute Error (MAE)"
-        },
-        "correct_answer": "B",
-        "clo": "Understanding basic clustering methods",
-        "difficulty": "3"
-    },
-    {
-        "question": {
-            "questionNumber": "10",
-            "question": "Which method quantizes the object space into a finite number of cells that form a grid structure?"
-        },
-        "answers": {
-            "A": "- A) Partitioning Methods",
-            "B": "- B) Hierarchical Methods",
-            "C": "- C) Density-Based Methods",
-            "D": "- D) Grid-Based Methods"
-        },
-        "correct_answer": "D",
-        "clo": "Understanding basic clustering methods",
-        "difficulty": "3"
-    }
-]
+        {
+            "question": {
+                "questionNumber": "10",
+                "question": "What is an example of a density-based clustering method?"
+            },
+            "answers": {
+                "A": "- A. K-means",
+                "B": "- B. K-medoids",
+                "C": "- C. DBSCAN",
+                "D": "- D. Linear Regression"
+            },
+            "correct_answer": "C",
+            "clo": "Evaluate different clustering methods",
+            "difficulty": "5"
+        }
+    ]
+}
